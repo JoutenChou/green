@@ -1,0 +1,103 @@
+body {
+    background: url(../images/fc4bbda9-e500-4788-a1a6-c444786b6dc1.jpg) no-repeat scroll center top transparent;position: relative;
+}/*底圖*/
+
+#banner{
+    height: 450px;
+}
+
+.column.right{display:none}
+.column.left{width:100%}
+.column.right, #side {
+    background-color: #fff;
+    background-image: linear-gradient(#fff 50%, #fff);
+    border: 0 solid #d7d7d7;
+    border-radius: 8px;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+.column.right:after, #side:after {
+    position: absolute;
+    width: 0;
+    height: 0;
+    content: "";
+    border-top: 14px solid transparent;
+    border-bottom: 14px solid transparent;
+    border-left: 14px solid #fff;
+    top: 50%;
+    right: -14px;
+    margin-top: -14px;
+    top: 30px;
+    right: -14px;
+}
+.column h2, #main h1, #side h2, .related-product > h3 {
+    border-bottom: 0 dotted #ff5700;
+    clear: both;
+    font-size: 160%;
+    line-height: 1.4;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+/*頁籤*/
+#nav ul li a {
+    color: #525355;
+    font-size: 120%;
+    font-weight:bold;
+    line-height: 1.2;
+}
+#nav ul li.current a, #nav ul li a:hover {
+    color: #009944;
+}
+#nav ul li a {
+    border-left: #525355 1px dotted;
+}
+
+/*下方頁籤*/
+#foot-nav li.current a {
+    color: #009944;
+}
+#foot-nav li a {
+    color: #333;
+}
+#foot-nav li a {
+    color: #333;
+}
+#foot-nav ul li a:hover{
+    color: #009944;
+}
+#foot-nav li a {
+    border-left: #525355 1px dotted;
+}
+
+/*分頁標題*/
+#main h1, .column h2, .related-product>h3 {
+    color: #333;
+}
+/*內頁側欄*/
+.column.right, #side {
+    padding: 10px;
+    background-color: rgba(0,0,0,0);
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0));
+    border: 0 solid #d7d7d7;
+    border-radius: 8px;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+/*響應式表格*/
+/*.frame img {
+	height: 200px;
+	width: 400px;
+	background-color: #FFF;
+	padding: 0px;
+	border: 1px solid #D5D5D5;
+}
+
+.frame2 img {
+	height: 240px;
+	width: 320px;
+	background-color: #FFF;
+	padding: 4px;
+	border: 1px solid #D5D5D5;
+}*/
